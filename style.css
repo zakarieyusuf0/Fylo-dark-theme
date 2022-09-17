@@ -69,11 +69,11 @@ span{
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
-    transition: all 0.4s ;
+    transition: all 0.4s;
 }
-/* .btn:hover{
-    transform: translatex(-10rem);
-} */
+.btn:hover{
+    transform: translate(0, -5px)
+}
 
 
 
@@ -211,7 +211,9 @@ h1.container::before{
     text-align: center;
     justify-content: center;
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px;
+  
     /*
      margin: 1.3em auto; */
 }
@@ -288,7 +290,7 @@ a.btn-2:hover{
     grid-gap: 1.5rem;
 }
 .items{
-    background: hsl(216, 53%, 9%);
+    background:  hsl(219, 30%, 18%);
     border-radius: 10px;
     padding: 2rem 1rem;
     position: relative;
@@ -337,11 +339,11 @@ a.btn-2:hover{
     padding-left: 2rem;
     padding-right: 2rem;
     position: relative;
-    top: 40px;
+    top: 60px;
 
 }
 .Sub-container{
-    background: hsl(216, 53%, 9%);
+    background:  hsl(217, 28%, 15%);
     border-radius: 10px;
     padding: 2rem 3rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -397,6 +399,7 @@ form{
 
 
 #footer{
+    background:  hsl(216, 53%, 9%);
     padding: 100px 0;
     /* min-height: 100vh; */
 }
