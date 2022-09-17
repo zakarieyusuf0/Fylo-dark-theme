@@ -71,9 +71,9 @@ span{
     color: #fff;
     transition: all 0.4s ;
 }
-.btn:hover{
+/* .btn:hover{
     transform: translatex(-10rem);
-}
+} */
 
 
 
@@ -533,7 +533,15 @@ form{
    .Sub-container{
     padding: 1rem;
    }
-
+   .btn{
+    background: rgb(3, 167, 255);
+    padding: 0.5rem 2.3rem;
+    border-radius: 27.2px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.4s ;
+}
    
 }
 
