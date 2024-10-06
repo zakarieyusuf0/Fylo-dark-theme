@@ -213,17 +213,17 @@ h1.container::before{
     padding: 1rem;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 /*     box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px; */
-    border-radius: 25px;
+/*     border-radius: 25px; */
     
   
     /*
      margin: 1.3em auto; */
 }
-.boxes:hover{
+/* .boxes:hover{
     background-color: hsl(218, 68%, 11%);
     opacity: 0.6;
     transition: all 0.3s ease-in-out;
-}
+} */
 /* featurees */
 #Features{
     padding-top: 100px;
@@ -450,7 +450,7 @@ form{
 .footer-5 a{
     border: 1px solid #f4f3f5;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
     color: #fff;
 }
 .footer-5 a:hover{
