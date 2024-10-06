@@ -197,7 +197,7 @@ h1.container::before{
 }
 #hero .grid-flex{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem 2rem;
 
 }
@@ -212,7 +212,7 @@ h1.container::before{
     justify-content: center;
     padding: 1rem;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px;
+/*     box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px; */
     border-radius: 25px;
     
   
