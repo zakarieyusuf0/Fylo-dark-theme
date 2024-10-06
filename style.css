@@ -213,6 +213,8 @@ h1.container::before{
     padding: 1rem;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px;
+    border-radius: 25px;
+    
   
     /*
      margin: 1.3em auto; */
