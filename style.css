@@ -211,6 +211,7 @@ h1.container::before{
     text-align: center;
     justify-content: center;
     padding: 1rem;
+    }
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 /*     box-shadow: rgba(0, 0, 0, 0.35) 1px 1px 15px; */
 /*     border-radius: 25px; */
@@ -218,12 +219,13 @@ h1.container::before{
   
     /*
      margin: 1.3em auto; */
-}
+
 /* .boxes:hover{
     background-color: hsl(218, 68%, 11%);
     opacity: 0.6;
     transition: all 0.3s ease-in-out;
 } */
+
 /* featurees */
 #Features{
     padding-top: 100px;
@@ -335,7 +337,7 @@ a.btn-2:hover{
 }
 
 
-/* sogn */
+/* sign */
 #sign{
     padding-top: 70px;
     padding-left: 2rem;
@@ -454,6 +456,7 @@ form{
     color: #fff;
 }
 .footer-5 a:hover{
+    border: 0px solid #f4f3f5;
     background: orange;
     border: none;
     transition: all 0.4s;
